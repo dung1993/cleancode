@@ -1,4 +1,4 @@
-package Refactoring;
+package RefactoringChangeObject;
 
 import org.junit.Test;
 

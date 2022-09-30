@@ -1,4 +1,4 @@
-package Refactoring;
+package RefactoringChangeObject;
 
 public class Calculator {
     public static final char ADDITION = '+';
