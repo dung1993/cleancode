@@ -24,21 +24,21 @@ public class Main {
         order.setIdOrder(2);
         order.setCustomer(customer);
 //        order.removeProductById(3);
-        System.out.println(order);
-        order.changeProductById(4,"Water");
-        System.out.println(order);
-        List<Product> newProduct = order.searchProductByName("Number1");
+//        System.out.println(order);
+//        order.changeProductById(4,"Water");
+//        System.out.println(order);
+        List<Product> newProduct = order.searchProductByName("Revice");
         System.out.println(Arrays.toString(newProduct.toArray()));
-        System.out.print(order.searchProduct("Revice", 10000));
-        Comparator<Product> myProduct = new ComparatorImplName();
-        order.sortProductByName(myProduct);
-        System.out.println(order);
-        Comparator<Product> myPrice = new ComparatorImlpPrice();
-        order.sortProductByPrice(myPrice);
-        System.out.println(order);
-        Comparator<Product> myAmount= new ComparatorImlpAmount();
-        order.sortProductByAmount(myAmount);
-        System.out.println(order);
+//        System.out.print(order.searchProduct("Revice", 10000));
+//        Comparator<Product> myProduct = new ComparatorImplName();
+//        order.sortProductByName(myProduct);
+//        System.out.println(order);
+//        Comparator<Product> myPrice = new ComparatorImlpPrice();
+//        order.sortProductByPrice(myPrice);
+//        System.out.println(order);
+//        Comparator<Product> myAmount= new ComparatorImlpAmount();
+//        order.sortProductByAmount(myAmount);
+//        System.out.println(order);
 
     }
 }
