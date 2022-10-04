@@ -32,5 +32,4 @@ public class MyGenericStack<T> {
         return false;
     }
 
-
 }
